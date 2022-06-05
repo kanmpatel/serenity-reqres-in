@@ -1,0 +1,5 @@
+in\reqres\model\UserPagePojo.class
+in\reqres\utils\TestUtils.class
+in\reqres\constants\EndPoints.class
+in\reqres\pageSteps\PageInfo.class
+in\reqres\utils\PropertyReader.class
