@@ -1,2 +1,4 @@
+in\reqres\cucumber\steps\MyStepdefs.class
+in\reqres\cucumber\BookingTestRunner.class
 in\reqres\pageinfo\UserPageCurdTest.class
 in\reqres\testbase\TestBase.class

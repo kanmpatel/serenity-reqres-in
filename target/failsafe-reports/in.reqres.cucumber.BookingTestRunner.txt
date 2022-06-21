@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: in.reqres.cucumber.BookingTestRunner
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.274 sec - in in.reqres.cucumber.BookingTestRunner

@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"End to End testing of User data","Create a new User data & verify if the User is added","SUCCESS","2022-06-21T06:12:32.910+01:00[Europe/London]","0.0","3.38"
+"End to End testing of User data","Verify the User data are successfully created","SUCCESS","2022-06-21T06:12:37.336+01:00[Europe/London]","0.0","0.11"
+"End to End testing of User data","Update the User data for given ID","SUCCESS","2022-06-21T06:12:37.477+01:00[Europe/London]","0.0","0.11"
+"End to End testing of User data","Delete the Prodct data for given ID & verify the record are deleted successfully","SUCCESS","2022-06-21T06:12:37.622+01:00[Europe/London]","0.0","0.2"
