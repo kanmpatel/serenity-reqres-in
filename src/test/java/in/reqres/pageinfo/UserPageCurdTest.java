@@ -11,8 +11,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(SerenityRunner.class)
 public class UserPageCurdTest extends TestBase {
-    private String name = "john" + TestUtils.getRandomValue();
-    private String job = "softwareTester";
+    public String name = "john" + TestUtils.getRandomValue();
+    public String job = "softwareTester";
     static String pageId;
     ValidatableResponse response;
 

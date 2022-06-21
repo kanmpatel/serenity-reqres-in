@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="in.reqres.pageinfo.UserPageCurdTest" time="3.773" tests="4" errors="0" skipped="0" failures="1">
+<testsuite name="in.reqres.pageinfo.UserPageCurdTest" time="0.54" tests="4" errors="0" skipped="0" failures="1">
   <properties>
     <property name="idea.version" value="2021.3.3"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -63,8 +63,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="test001" classname="in.reqres.pageinfo.UserPageCurdTest" time="3.23"/>
-  <testcase name="test002" classname="in.reqres.pageinfo.UserPageCurdTest" time="0.168">
+  <testcase name="test001" classname="in.reqres.pageinfo.UserPageCurdTest" time="0.109"/>
+  <testcase name="test002" classname="in.reqres.pageinfo.UserPageCurdTest" time="0.125">
     <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
 Expected status code <200> but was <404>.
 
@@ -95,7 +95,7 @@ Expected status code <200> but was <404>.
 	at in.reqres.pageinfo.UserPageCurdTest.test002(UserPageCurdTest.java:33)
 ]]></failure>
     <system-out><![CDATA[HTTP/1.1 404 Not Found
-Date: Sun, 05 Jun 2022 21:29:27 GMT
+Date: Tue, 21 Jun 2022 05:12:37 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 2
 Connection: keep-alive
@@ -106,18 +106,17 @@ Via: 1.1 vegur
 Cache-Control: max-age=14400
 CF-Cache-Status: MISS
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=oPhe%2FZntGWWPqWSVp%2FoRPSLGymMlfZfxiD6F4sR3Zz%2B6gnviwc2O7DwKWAA6Z1BNObXX%2B66y51m5KxS415Gv0AEC9GPKbb3EGqCB2qkNTnYHPnLcm%2Fox1pRaPJY%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=6cf1lcpaci46r78RQ79XjKHKZCIOuWbNVrbkbp0ATrDhAkEIeW%2FtMsHeJ%2F%2B6o5LIrA0pMoJFC9RvOWCUSrlYsolycx479MevVYptjBk0haNR2wiN96kv7RCwHw%3D%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Vary: Accept-Encoding
 Server: cloudflare
-CF-RAY: 716c00fc1c6d06d9-LHR
-alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+CF-RAY: 71ea4011ed5371b6-LHR
 
 {
     
 }
 ]]></system-out>
-    <system-err><![CDATA[3775 [main] INFO net.serenitybdd.core.Serenity - 
+    <system-err><![CDATA[5806 [main] INFO net.serenitybdd.core.Serenity - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
  (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
@@ -127,7 +126,7 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
 
 TEST PASSED: Test001
 ----------------------------------------------------------------------------
-3777 [main] INFO net.serenitybdd.core.Serenity - 
+5806 [main] INFO net.serenitybdd.core.Serenity - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -137,9 +136,9 @@ TEST PASSED: Test001
 
 TEST STARTED: test002
 -------------------------------------------------------------------
-3777 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 2
+5806 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 2
 ]]></system-err>
   </testcase>
-  <testcase name="test003" classname="in.reqres.pageinfo.UserPageCurdTest" time="0.125"/>
-  <testcase name="test004" classname="in.reqres.pageinfo.UserPageCurdTest" time="0.25"/>
+  <testcase name="test003" classname="in.reqres.pageinfo.UserPageCurdTest" time="0.11"/>
+  <testcase name="test004" classname="in.reqres.pageinfo.UserPageCurdTest" time="0.196"/>
 </testsuite>
