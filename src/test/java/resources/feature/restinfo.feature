@@ -6,7 +6,6 @@ Feature: End to End testing of User data
     Then    I verify the status code 201 for User data
     And     I get the id of new created User data
 
-
   Scenario: Verify the User data are successfully created
     When I sends a GET request for fatching User data by given ID
     Then I verify the name is for created record for User

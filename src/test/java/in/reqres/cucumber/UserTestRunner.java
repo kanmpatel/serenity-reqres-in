@@ -10,6 +10,6 @@ import org.junit.runner.RunWith;
         features = "src/test/java/resources/feature/",
         glue = "in/reqres"
 )
-public class BookingTestRunner extends TestBase {
+public class UserTestRunner extends TestBase {
 
 }
